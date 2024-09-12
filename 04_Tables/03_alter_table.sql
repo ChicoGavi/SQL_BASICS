@@ -38,3 +38,11 @@ Lección 13.13: https://youtu.be/OuJerKzV5T0?t=12712
 -- DROP COLUMN: Elimina el atributo description en la tabla "persons8"
 ALTER TABLE persons8
 DROP COLUMN description;
+
+
+ALTER TABLE users
+DROP FOREIGN KEY fk_company_user;
+
+ALTER TABLE users
+ADD CONSTRAINT fk_user_empresa
+FOREIGN KEY(id_empresa) REFERENCES empresa(id_empresa);
