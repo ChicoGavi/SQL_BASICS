@@ -1,6 +1,8 @@
 /*
 INNER JOIN (JOIN)
 Lección 17.1: https://youtu.be/OuJerKzV5T0?t=16101
+
+INNER JOIN SON LOS DATOS EN COMUN QUE EXISTE ENTRE LAS TABLAS (LLAVES PRIMARIAS Y FORANEAS)
 */
 
 -- Realiza un JOIN de manera incorrecta, ya que no existe un campo de relación
