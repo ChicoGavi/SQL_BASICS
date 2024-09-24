@@ -10,6 +10,7 @@ SELECT name, age
 FROM users
 WHERE age >= 18;
 
+/* VER LA VISTA CREADA*/
 SELECT * FROM v_adult_users;
 
 -- Elimina la vista llamada "v_adult_users"
