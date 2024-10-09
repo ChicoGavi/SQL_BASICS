@@ -16,5 +16,9 @@ FROM STATION
 ORDER BY LENGTH(CITY), CITY
 LIMIT 1;
 
+Consulta la población media de todas las ciudades de CIUDAD, redondeada al entero inferior más próximo.
+
+SELECT FLOOR(AVG(POPULATION)) FROM CITY 
+
 
 

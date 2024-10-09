@@ -17,3 +17,11 @@ SELECT * FROM users WHERE email='sara@gmail.com' ORDER BY age DESC;
 
 -- Obtiene todos los nombres de la tabla "users" con email igual a sara@gmail.com y los ordena por edad de manera descendente
 SELECT name FROM users WHERE email='sara@gmail.com' ORDER BY age DESC;
+
+-- ORDER BY RIGHT(Nombre, 3): ordena los resultados por los tres últimos caracteres del nombre.
+--- ID ASC: si hay empates en los tres últimos caracteres, se ordena por el ID en orden ascendente.
+
+SELECT Nombre
+FROM ALUMNOS
+WHERE Marcas > 75
+ORDER BY RIGHT(Nombre, 3), ID ASC;
